@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "ts-jest": "^19.0.8",
+    "typescript": "^2.2.2"
+  },
+  "jest": {
+    "automock": true,
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "<rootDir>/test.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}

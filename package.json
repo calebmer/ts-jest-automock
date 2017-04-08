@@ -9,6 +9,11 @@
   },
   "jest": {
     "automock": true,
+    "unmockedModulePathPatterns": [
+      "chalk",
+      "has-ansi",
+      "color-convert"
+    ],
     "transform": {
       ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
     },
